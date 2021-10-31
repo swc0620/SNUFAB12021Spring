@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "name": "Carly",
+    "picture": "images/Carly.jpg",
+    "age": 22,
+    "location": "Busan",
+    "token_name":"CAR"
+  },
+  {
+    "id": 1,
+    "name": "George",
+    "picture": "images/George.jpg",
+    "age": 24,
+    "location": "Seoul",
+    "token_name":"GEO"
+  },
+  {
+    "id": 2,
+    "name": "Samantha",
+    "picture": "images/Samantha.jpg",
+    "age": 26,
+    "location": "Daejeon",
+    "token_name":"SAM"
+
+  }
+]

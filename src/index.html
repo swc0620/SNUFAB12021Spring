@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DDATE: The decentralized online date community</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row row-eq-height">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1 class="text-center">
+            <img id="ddate_img" class="img-rounded img-center" style="width: 48px; height: 48px;" />  DDATE
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <h3 class="text-center"><i>The decentralized online dating community</i></h3>
+        </div>
+        <div class="col-xs-12 col-sm-12">
+          <button id="enableEthereumButton">Enable Ethereum</button>
+          <h5>Account: <span id="showAccount"></span></h5>
+        </div>
+      </div>
+
+      <div id="userRow" class="row">
+
+      </div>
+    </div>
+
+    <div id="userTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="panel panel-default panel-user">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">User Name</h3>
+
+          </div>
+          <div class="panel-body">
+            <img id="token-img-0" alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Token Name</strong>: <span id="token-name-0">0</span><br/>
+            <strong>Total supply</strong>: <span id="token-supply-0">0</span><br/>
+            <strong>My balance</strong>: <span id="my-balance-0">0</span><br/>
+            <strong>Age</strong>: <span id="user-age-0"></span><button id="btn-view-age-0" class="btn btn-default btn-small" type="button" data-id="0">View age</button><br />
+            <strong>Location</strong>: <span id="user-location-0"></span><button id="btn-view-location-0" class="btn btn-default btn-small" type="button" data-id="1">View location</button><br />
+            <br />
+            <button id="btn-shall-we-chat-0" class="btn btn-default btn-large" type="button" data-id="2">Shall we chat?</button><br />
+            <button id="btn-open-chat-0" class="btn btn-default btn-large" type="button" data-id="3">Open chat</button><br /><br />
+            <button id="btn-swap-token-0" class="btn btn-default btn-large" type="button" data-id="3">Swap</button><br /><br />
+            <strong>Review</strong>
+            <ul>
+              <li>Nice</li>
+              <li>BOO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="panel panel-default panel-user">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">User Name</h3>
+          </div>
+          <div class="panel-body">
+            <img id="token-img-1" alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Token Name</strong>: <span id="token-name-1">0</span><br/>
+            <strong>Total supply</strong>: <span id="token-supply-1">0</span><br/>
+            <strong>My balance</strong>: <span id="my-balance-1">0</span><br/>
+            <strong>Age</strong>: <span id="user-age-1"></span><button id="btn-view-age-1" class="btn btn-default btn-small" type="button" data-id="0">View age</button><br />
+            <strong>Location</strong>: <span id="user-location-1"></span><button id="btn-view-location-1" class="btn btn-default btn-small" type="button" data-id="1">View location</button><br />
+            <br />
+            <button id="btn-shall-we-chat-1" class="btn btn-default btn-large" type="button" data-id="2">Shall we chat?</button><br />
+            <button id="btn-open-chat-1" class="btn btn-default btn-large" type="button" data-id="3">Open chat</button><br /><br />
+            <button id="btn-swap-token-1" class="btn btn-default btn-large" type="button" data-id="3">Swap</button><br /><br />
+            <strong>Review</strong>
+            <ul>
+              <li>Nice</li>
+              <li>BOO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="panel panel-default panel-user">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">User Name</h3>
+          </div>
+          <div class="panel-body">
+            <img id="token-img-2" alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Token Name</strong>: <span id="token-name-2">0</span><br/>
+            <strong>Total supply</strong>: <span id="token-supply-2">0</span><br/>
+            <strong>My balance</strong>: <span id="my-balance-2">0</span><br/>
+             <strong>Age</strong>: <span id="user-age-2"></span><button id="btn-view-age-2" class="btn btn-default btn-small" type="button" data-id="0">View age</button><br />
+            <strong>Location</strong>: <span id="user-location-2"></span><button id="btn-view-location-2" class="btn btn-default btn-small" type="button" data-id="1">View location</button><br />
+             <br />
+            <button id="btn-shall-we-chat-2" class="btn btn-default btn-large" type="button" data-id="2">Shall we chat?</button><br />
+            <button id="btn-open-chat-2" class="btn btn-default btn-large" type="button" data-id="3">Open chat</button><br /><br />
+            <button id="btn-swap-token-2" class="btn btn-default btn-large" type="button" data-id="3">Swap</button><br /><br />
+            <strong>Review</strong>
+            <ul>
+              <li>Nice</li>
+              <li>BOO</li>
+             </ul>
+           </div>
+         </div>
+       </div>
+    </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/web3.min.js"></script>
+      <script src="js/truffle-contract.js"></script>
+      <script src="js/app.js"></script>
+  </body>
+</html>
